@@ -7,7 +7,7 @@
 }
 
 body {
-	background-color: #b1a9a9;
+	background-color: #c22323;
 }
 
 .panel {
@@ -26,7 +26,7 @@ body {
 
 .navbar-custom {
 	/*color navbar*/
-    background-color: #b21818;
+    background-color: transparent;
     color:#ffffff;
     border-radius:0;
 }
