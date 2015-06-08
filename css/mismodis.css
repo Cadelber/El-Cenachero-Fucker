@@ -1,8 +1,9 @@
-h1 { 
+.navbar-brand h1 { 
 	font-family: Verdana; 
-	FONT-SIZE:20pt; 
+	font-size:20pt; 
 	display: inline; 
 	font-weight:normal; 
+    color:#fff;
 }
 
 .contenido { 
@@ -14,3 +15,25 @@ h1 {
 	 
 }
 
+
+.navbar-custom {
+	/*color navbar*/
+    background-color: #c22323;
+    color:#ffffff;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+	/*line-height: 250px;
+	height: 150px;
+	padding-top: 0;*/
+    color:#fff;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color:transparent;
+}
+.navbar-custom .navbar-brand {
+	/*color h1*/
+    color:#eeeeee;
+}
