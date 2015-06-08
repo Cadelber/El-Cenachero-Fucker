@@ -6,10 +6,18 @@
     color:#fff;
 }
 
+body {
+	background-color: #b1a9a9;
+}
+
+.panel {
+	background-color: #fff;
+}
+
 .contenido { 
 	
 	font-family: Verdana; 
-	FONT-SIZE:12pt; 
+	font-size:12pt; 
 	width: 600px;
  	margin: 0 auto;
 	 
@@ -18,7 +26,7 @@
 
 .navbar-custom {
 	/*color navbar*/
-    background-color: #c22323;
+    background-color: #b21818;
     color:#ffffff;
     border-radius:0;
 }
@@ -37,3 +45,19 @@
 	/*color h1*/
     color:#eeeeee;
 }
+
+@font-face {
+  font-family: "Special+Elite";
+  font-style: normal;
+  font-weight: normal;
+	src: local("?"), url("/fonts/SpecialElite.ttf") format("ttf");
+	}
+
+h2 {
+	font-family: "Special+Elite";
+}
+
+.cagarruti {
+  font-family: "Special+Elite";
+  
+}   
